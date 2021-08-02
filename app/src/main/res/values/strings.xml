@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImageViewer_Homework12_Android</string>
+    <string name="get_foto">Get foto</string>
+    <string name="images">Images</string>
+    <string name="camera">camera</string>
+    <string name="take_picture">Take picture</string>
+    <string name="picture_description">picture description</string>
+    <string name="save">save</string>
+    <string name="detail_description">Hello blank fragment</string>
+    <string name="brocken_img_path">Image file is unavailable!!!</string>
+</resources>

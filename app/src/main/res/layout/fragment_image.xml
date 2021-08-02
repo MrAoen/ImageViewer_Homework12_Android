@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageFragment">
+
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:src="@tools:sample/backgrounds/scenic"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:id="@+id/img_description"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="@string/detail_description"
+        android:layout_gravity="bottom"/>
+</FrameLayout>
